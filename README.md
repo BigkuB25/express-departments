@@ -17,3 +17,8 @@ Start the server
 ```bash
   npm start
 ```
+
+ Call api in postman with curl
+```bash
+  curl --location 'localhost:3000/api/departments'
+```
