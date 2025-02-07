@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "target": "es2020", // Or another target like "es5", "es6", etc.  Choose based on your needs.
+    "module": "commonjs", // or "esnext" if you are using modules.
+    "outDir": "./dist",   // Output directory for the compiled JavaScript files
+    "strict": true,       // Enable strict type checking (recommended)
+    "esModuleInterop": true, // Enables better interoperability with CommonJS modules
+    "skipLibCheck": true,   // Skip type checking of declaration files.
+    "forceConsistentCasingInFileNames": true // Disallow inconsistently cased references to the same file.
+  }
+}
